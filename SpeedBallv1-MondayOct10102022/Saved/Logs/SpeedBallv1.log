@@ -6461,3 +6461,427 @@ Make sure 'GIDemo_C' has been compiled for  Get Lives
 [2022.11.04-17.52.45:581][651]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/floor.floor
 [2022.11.04-17.52.47:452][860]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
 [2022.11.04-17.52.47:452][860]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.55.16:596][196]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-17.55.16:602][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-17.55.16:602][196]PIE: New page: PIE session: Level_BallGame_1 (Nov 4, 2022, 5:55:16 AM)
+[2022.11.04-17.55.16:602][196]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.16:605][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003462s)
+[2022.11.04-17.55.16:605][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003513s)
+[2022.11.04-17.55.16:605][196]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.55.16:606][196]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.55.16:606][196]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.55.16:607][196]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2022.11.04-17.55.16:628][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.11.04-17.55.16:640][196]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.11.04-17.55.16:640][196]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-17.55.16:640][196]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-17.55.16:640][196]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-17.55.16:640][196]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-17.55.16:640][196]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-17.55.16:640][196]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-17.55.16:640][196]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-17.55.16:640][196]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-17.55.16:641][196]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-17.55.16:641][196]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-17.55.16:641][196]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-17.55.16:643][196]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-17.55.16:654][196]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2022.11.04-17.55.16:654][196]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-17.55.16:654][196]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-17.55.16:654][196]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-17.55.16:654][196]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.11.04-17.55.16:654][196]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.11.04-17.55.16:655][196]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.11.04-17.55.16:656][196]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.11.04-17.55.16:656][196]LogInit: FAudioDevice initialized.
+[2022.11.04-17.55.16:656][196]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.55.16:667][196]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.55.16:669][196]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.55.16
+[2022.11.04-17.55.16:669][196]LogWorld: Bringing up level for play took: 0.001250
+[2022.11.04-17.55.16:670][196]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2022.11.04-17.55.16:672][196]PIE: Server logged in
+[2022.11.04-17.55.16:672][196]PIE: Play in editor total start time 0.072 seconds.
+[2022.11.04-17.55.21:241][734]LogNet: Browse: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.55.21:241][734]LogLoad: LoadMap: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.55.21:241][734]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.21:242][734]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.55.21:242][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.55.21:282][734]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.55.21:284][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.11.04-17.55.21:286][734]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.21:290][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003208s)
+[2022.11.04-17.55.21:290][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003273s)
+[2022.11.04-17.55.21:290][734]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.55.21:290][734]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.55.21:290][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.55.21:290][734]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.55.21:290][734]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2022.11.04-17.55.21:290][734]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.55.21:291][734]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.55.21
+[2022.11.04-17.55.21:291][734]LogWorld: Bringing up level for play took: 0.000890
+[2022.11.04-17.55.21:292][734]LogLoad: Took 0.051362 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_BallGame_1)
+[2022.11.04-17.55.24:964][174]LogNet: Browse: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.55.24:964][174]LogLoad: LoadMap: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.55.24:964][174]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.24:964][174]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.55.24:964][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.55.25:025][174]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.55.25:027][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.11.04-17.55.25:029][174]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.25:032][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003207s)
+[2022.11.04-17.55.25:032][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003269s)
+[2022.11.04-17.55.25:032][174]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.55.25:032][174]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.55.25:032][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.55.25:032][174]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.55.25:032][174]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2022.11.04-17.55.25:032][174]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.55.25:033][174]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.55.25
+[2022.11.04-17.55.25:033][174]LogWorld: Bringing up level for play took: 0.000862
+[2022.11.04-17.55.25:035][174]LogLoad: Took 0.070936 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_BallGame_1)
+[2022.11.04-17.55.33:001][129]LogNet: Browse: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.55.33:001][129]LogLoad: LoadMap: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.55.33:001][129]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.33:002][129]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.55.33:002][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.55.33:043][129]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.55.33:044][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.11.04-17.55.33:046][129]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.33:050][129]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003254s)
+[2022.11.04-17.55.33:050][129]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003317s)
+[2022.11.04-17.55.33:050][129]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.55.33:050][129]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.55.33:050][129]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.55.33:050][129]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.55.33:051][129]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2022.11.04-17.55.33:051][129]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.55.33:052][129]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.55.33
+[2022.11.04-17.55.33:052][129]LogWorld: Bringing up level for play took: 0.000921
+[2022.11.04-17.55.33:053][129]LogLoad: Took 0.052057 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_BallGame_1)
+[2022.11.04-17.55.45:074][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.55.45:074][568]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.55.45:074][568]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.55.45:075][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.55.45:085][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-17.55.45:090][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.55.45:107][568]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.55.45:108][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.11.04-17.55.45:109][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.11.04-17.55.45:111][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.55.45:113][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.11.04-17.55.45:165][570]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2022.11.04-17.56.08:835][353]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-17.56.11:277][643]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-17.56.15:305][120]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2022.11.04-17.56.16:527][256]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-17.56.16:532][256]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-17.56.16:533][256]PIE: New page: PIE session: Level_BallGame_1 (Nov 4, 2022, 5:56:16 AM)
+[2022.11.04-17.56.16:574][256]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.56.16:581][256]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006549s)
+[2022.11.04-17.56.16:581][256]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.006695s)
+[2022.11.04-17.56.16:581][256]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.56.16:581][256]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.56.16:582][256]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.56.16:582][256]LogPlayLevel: PIE: World Init took: (0.000855s)
+[2022.11.04-17.56.16:599][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.11.04-17.56.16:601][256]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.11.04-17.56.16:601][256]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-17.56.16:601][256]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-17.56.16:601][256]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-17.56.16:602][256]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-17.56.16:602][256]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-17.56.16:602][256]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-17.56.16:602][256]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-17.56.16:602][256]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-17.56.16:602][256]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-17.56.16:602][256]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-17.56.16:602][256]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-17.56.16:604][256]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-17.56.16:616][256]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2022.11.04-17.56.16:616][256]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-17.56.16:616][256]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-17.56.16:616][256]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-17.56.16:617][256]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.11.04-17.56.16:617][256]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.11.04-17.56.16:618][256]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.11.04-17.56.16:618][256]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.11.04-17.56.16:618][256]LogInit: FAudioDevice initialized.
+[2022.11.04-17.56.16:618][256]LogAudio: Display: Audio Device (ID: 22) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.56.16:628][256]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.56.16:629][256]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.56.16
+[2022.11.04-17.56.16:630][256]LogWorld: Bringing up level for play took: 0.001193
+[2022.11.04-17.56.16:631][256]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2022.11.04-17.56.16:632][256]PIE: Server logged in
+[2022.11.04-17.56.16:632][256]PIE: Play in editor total start time 0.101 seconds.
+[2022.11.04-17.56.24:834][231]LogScript: Warning: Attempted to access missing property 'none'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Key_C /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1:PersistentLevel.Key_C_3
+	Function /Game/Blueprints/Key.Key_C:ExecuteUbergraph_Key:01B0
+[2022.11.04-17.56.24:834][231]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'none'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Node:  Set gotKey Graph:  EventGraph Function:  Execute Ubergraph Key Blueprint:  Key
+[2022.11.04-17.56.24:834][231]LogScript: Warning: Attempted to access missing property 'none'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	Key_C /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1:PersistentLevel.Key_C_3
+	Function /Game/Blueprints/Key.Key_C:ExecuteUbergraph_Key:01DF
+[2022.11.04-17.56.24:834][231]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'none'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Node:  Set gotKey Graph:  EventGraph Function:  Execute Ubergraph Key Blueprint:  Key
+[2022.11.04-17.56.24:834][231]LogScript: Warning: Attempted to assign to None
+	Key_C /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1:PersistentLevel.Key_C_3
+	Function /Game/Blueprints/Key.Key_C:ExecuteUbergraph_Key:01DF
+[2022.11.04-17.56.24:834][231]PIE: Error: Blueprint Runtime Error: "Attempted to assign to None". Node:  Set gotKey Graph:  EventGraph Function:  Execute Ubergraph Key Blueprint:  Key
+[2022.11.04-17.56.31:215][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.56.31:215][992]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.56.31:216][992]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.56.31:216][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.56.31:230][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-17.56.31:233][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.56.31:251][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.56.31:251][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.11.04-17.56.31:252][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.11.04-17.56.31:256][992]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.11.04-17.56.31:386][993]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2022.11.04-17.56.33:385][193]LogSlate: Window 'Message Log' being destroyed
+[2022.11.04-17.56.33:398][193]LogSlate: Window 'Message Log' being destroyed
+[2022.11.04-17.56.36:891][553]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Key.Key
+[2022.11.04-17.56.36:892][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.56.41:070][952]LogSlate: Window 'Key' being destroyed
+[2022.11.04-17.57.14:087][354]LogEditorTransaction: Undo Create Pin Link
+[2022.11.04-17.57.30:790][ 41]BlueprintLog: New page: Compile Key
+[2022.11.04-17.57.30:830][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2022.11.04-17.57.33:145][312]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.57.33:145][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.57.34:196][397]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-17.57.34:201][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-17.57.34:202][397]PIE: New page: PIE session: Level_BallGame_1 (Nov 4, 2022, 5:57:34 AM)
+[2022.11.04-17.57.34:224][397]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.57.34:228][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003458s)
+[2022.11.04-17.57.34:228][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003531s)
+[2022.11.04-17.57.34:228][397]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.57.34:228][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.57.34:228][397]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.57.34:228][397]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2022.11.04-17.57.34:247][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.11.04-17.57.34:257][397]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.11.04-17.57.34:257][397]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-17.57.34:257][397]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-17.57.34:257][397]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-17.57.34:257][397]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-17.57.34:257][397]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-17.57.34:257][397]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-17.57.34:257][397]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-17.57.34:257][397]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-17.57.34:258][397]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-17.57.34:258][397]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-17.57.34:258][397]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-17.57.34:260][397]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-17.57.34:271][397]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2022.11.04-17.57.34:271][397]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-17.57.34:271][397]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-17.57.34:271][397]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-17.57.34:272][397]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.11.04-17.57.34:272][397]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2022.11.04-17.57.34:273][397]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.11.04-17.57.34:273][397]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.11.04-17.57.34:273][397]LogInit: FAudioDevice initialized.
+[2022.11.04-17.57.34:273][397]LogAudio: Display: Audio Device (ID: 23) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.57.34:282][397]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.57.34:283][397]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.57.34
+[2022.11.04-17.57.34:284][397]LogWorld: Bringing up level for play took: 0.001244
+[2022.11.04-17.57.34:285][397]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2022.11.04-17.57.34:287][397]PIE: Server logged in
+[2022.11.04-17.57.34:287][397]PIE: Play in editor total start time 0.086 seconds.
+[2022.11.04-17.58.01:011][592]LogNet: Browse: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.58.01:011][592]LogLoad: LoadMap: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.58.01:011][592]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.58.01:011][592]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.58.01:013][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.58.01:064][592]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.58.01:066][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2022.11.04-17.58.01:069][592]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.58.01:072][592]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003225s)
+[2022.11.04-17.58.01:072][592]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003292s)
+[2022.11.04-17.58.01:072][592]LogAudio: Display: Audio Device (ID: 23) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.58.01:072][592]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.58.01:072][592]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.58.01:073][592]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.58.01:073][592]LogPlayLevel: PIE: World Init took: (0.000745s)
+[2022.11.04-17.58.01:073][592]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.58.01:074][592]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.58.01
+[2022.11.04-17.58.01:074][592]LogWorld: Bringing up level for play took: 0.000892
+[2022.11.04-17.58.01:075][592]LogLoad: Took 0.063481 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_BallGame_1)
+[2022.11.04-17.58.10:686][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.58.10:686][740]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.58.10:686][740]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.58.10:687][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.58.10:698][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-17.58.10:702][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.58.10:720][740]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.58.10:720][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.11.04-17.58.10:721][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.11.04-17.58.10:724][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.58.10:726][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.11.04-17.58.10:759][741]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2022.11.04-17.58.15:956][316]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PC_SpeedBall.PC_SpeedBall
+[2022.11.04-17.58.15:956][316]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.58.24:498][188]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Key.Key
+[2022.11.04-17.58.24:498][188]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.58.43:494][297]BlueprintLog: New page: Compile PC_SpeedBall
+[2022.11.04-17.58.43:542][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.11.04-17.58.46:768][675]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.58.46:768][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.58.47:470][749]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.11.04-17.58.47:470][749]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.58.47:470][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.58.48:114][779]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-17.58.48:118][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-17.58.48:118][779]PIE: New page: PIE session: Level_BallGame_1 (Nov 4, 2022, 5:58:48 AM)
+[2022.11.04-17.58.48:145][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.58.48:148][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003584s)
+[2022.11.04-17.58.48:148][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003678s)
+[2022.11.04-17.58.48:148][779]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.58.48:148][779]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.58.48:148][779]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.58.48:148][779]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2022.11.04-17.58.48:170][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.11.04-17.58.48:177][779]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.11.04-17.58.48:177][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-17.58.48:177][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-17.58.48:177][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-17.58.48:177][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-17.58.48:177][779]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-17.58.48:177][779]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-17.58.48:177][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-17.58.48:177][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-17.58.48:177][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-17.58.48:178][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-17.58.48:178][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-17.58.48:179][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-17.58.48:191][779]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2022.11.04-17.58.48:192][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-17.58.48:192][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-17.58.48:192][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-17.58.48:192][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.11.04-17.58.48:192][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.11.04-17.58.48:193][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.11.04-17.58.48:193][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.11.04-17.58.48:193][779]LogInit: FAudioDevice initialized.
+[2022.11.04-17.58.48:193][779]LogAudio: Display: Audio Device (ID: 24) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.58.48:202][779]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.58.48:204][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.58.48
+[2022.11.04-17.58.48:204][779]LogWorld: Bringing up level for play took: 0.001263
+[2022.11.04-17.58.48:205][779]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2022.11.04-17.58.48:207][779]PIE: Server logged in
+[2022.11.04-17.58.48:207][779]PIE: Play in editor total start time 0.089 seconds.
+[2022.11.04-17.59.12:166][640]LogNet: Browse: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.59.12:167][640]LogLoad: LoadMap: /Game/Maps/Level_BallGame_1
+[2022.11.04-17.59.12:167][640]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.59.12:167][640]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.59.12:167][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.59.12:238][640]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.59.12:239][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.11.04-17.59.12:243][640]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.59.12:246][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003206s)
+[2022.11.04-17.59.12:246][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003278s)
+[2022.11.04-17.59.12:246][640]LogAudio: Display: Audio Device (ID: 24) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.59.12:246][640]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.59.12:246][640]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.59.12:247][640]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.59.12:247][640]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2022.11.04-17.59.12:247][640]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.59.12:248][640]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.59.12
+[2022.11.04-17.59.12:248][640]LogWorld: Bringing up level for play took: 0.000924
+[2022.11.04-17.59.12:249][640]LogLoad: Took 0.081950 seconds to LoadMap(/Game/Maps/UEDPIE_0_Level_BallGame_1)
+[2022.11.04-17.59.14:750][939]Set new viewmode: Wireframe
+[2022.11.04-17.59.55:946][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.59.55:946][874]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.59.55:946][874]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-17.59.55:947][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.59.55:959][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-17.59.55:964][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-17.59.55:982][874]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.11.04-17.59.55:982][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.11.04-17.59.55:984][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.11.04-17.59.55:986][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-17.59.55:988][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.11.04-17.59.56:017][875]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2022.11.04-17.59.58:409][151]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.11.04-17.59.58:413][151]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.11.04-17.59.58:413][151]PIE: New page: PIE session: Level_BallGame_1 (Nov 4, 2022, 5:59:58 AM)
+[2022.11.04-17.59.58:435][151]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-17.59.58:437][151]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003264s)
+[2022.11.04-17.59.58:437][151]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_BallGame_1.Level_BallGame_1 to /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 (0.003339s)
+[2022.11.04-17.59.58:437][151]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.11.04-17.59.58:438][151]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.04-17.59.58:438][151]LogAIModule: Creating AISystem for world Level_BallGame_1
+[2022.11.04-17.59.58:438][151]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2022.11.04-17.59.58:457][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.11.04-17.59.58:458][151]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.11.04-17.59.58:458][151]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.11.04-17.59.58:458][151]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.11.04-17.59.58:458][151]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.11.04-17.59.58:458][151]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.11.04-17.59.58:458][151]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.11.04-17.59.58:458][151]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.11.04-17.59.58:458][151]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.11.04-17.59.58:458][151]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.11.04-17.59.58:458][151]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.11.04-17.59.58:458][151]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.11.04-17.59.58:458][151]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.11.04-17.59.58:459][151]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.11.04-17.59.58:471][151]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Oculus Virtual Audio Device)
+[2022.11.04-17.59.58:471][151]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.11.04-17.59.58:471][151]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.11.04-17.59.58:471][151]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.11.04-17.59.58:472][151]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.11.04-17.59.58:472][151]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.11.04-17.59.58:473][151]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.11.04-17.59.58:473][151]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.11.04-17.59.58:473][151]LogInit: FAudioDevice initialized.
+[2022.11.04-17.59.58:473][151]LogAudio: Display: Audio Device (ID: 25) registered with world 'Level_BallGame_1'.
+[2022.11.04-17.59.58:485][151]LogLoad: Game class is 'GM_Speedball_C'
+[2022.11.04-17.59.58:487][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_BallGame_1.Level_BallGame_1 up for play (max tick rate 0) at 2022.11.04-11.59.58
+[2022.11.04-17.59.58:487][151]LogWorld: Bringing up level for play took: 0.001253
+[2022.11.04-17.59.58:487][151]LogOnline: OSS: Created online subsystem instance for: :Context_77
+[2022.11.04-17.59.58:489][151]PIE: Server logged in
+[2022.11.04-17.59.58:490][151]PIE: Play in editor total start time 0.076 seconds.
+[2022.11.04-18.00.05:164][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-18.00.05:164][937]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Level_BallGame_1
+[2022.11.04-18.00.05:164][937]LogWorld: UWorld::CleanupWorld for Level_BallGame_1, bSessionEnded=true, bCleanupResources=true
+[2022.11.04-18.00.05:164][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-18.00.05:172][937]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.11.04-18.00.05:176][937]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.04-18.00.05:192][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.11.04-18.00.05:192][937]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.11.04-18.00.05:195][937]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.11.04-18.00.05:199][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.11.04-18.00.05:252][941]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2022.11.04-18.00.11:223][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.11.04-18.00.11:308][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.11.04-18.00.11:319][488]LogSavePackage: Moving output files for package: /Game/Maps/Level_BallGame_1
+[2022.11.04-18.00.11:319][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Level_BallGame_121CA73544E71E9BA2739DDB6D7B15320.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Maps/Level_BallGame_1.umap'
+[2022.11.04-18.00.11:329][488]LogFileHelpers: No new changes to save!
+[2022.11.04-18.00.11:329][488]LogFileHelpers: Saving map 'Level_BallGame_1' took 0.040
+[2022.11.04-18.00.11:333][488]LogSavePackage: Moving output files for package: /Game/Blueprints/2ndGate
+[2022.11.04-18.00.11:333][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/2ndGateDC074E224A255E0B3EA257BEB9933409.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/2ndGate.uasset'
+[2022.11.04-18.00.11:337][488]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Ball
+[2022.11.04-18.00.11:338][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/BP_Ball35794F914E75AAC77F3E4C81FB99FB01.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/BP_Ball.uasset'
+[2022.11.04-18.00.11:347][488]LogSavePackage: Moving output files for package: /Game/Blueprints/PC_SpeedBall
+[2022.11.04-18.00.11:347][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/PC_SpeedBall5AFE739141B4A58AB196E49E3C5BE443.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/PC_SpeedBall.uasset'
+[2022.11.04-18.00.11:347][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2022.11.04-18.00.11:353][488]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/HUD
+[2022.11.04-18.00.11:353][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/HUDBC731E1245552586E5F072AB914A9F64.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/UI/HUD.uasset'
+[2022.11.04-18.00.11:354][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Gate" FILE="../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/Gate.uasset" SILENT=true
+[2022.11.04-18.00.11:356][488]LogSavePackage: Moving output files for package: /Game/Blueprints/Gate
+[2022.11.04-18.00.11:357][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/GateC50DA87B4BD84B7683492D83F31A4039.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/Gate.uasset'
+[2022.11.04-18.00.11:376][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Key" FILE="../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/Key.uasset" SILENT=true
+[2022.11.04-18.00.11:381][488]LogSavePackage: Moving output files for package: /Game/Blueprints/Key
+[2022.11.04-18.00.11:382][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Key0709E0E74DF2C90A29492A80E6FFB96C.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/Key.uasset'
+[2022.11.04-18.00.11:383][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GIDemo" FILE="../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/GIDemo.uasset" SILENT=true
+[2022.11.04-18.00.11:384][488]LogSavePackage: Moving output files for package: /Game/Blueprints/GIDemo
+[2022.11.04-18.00.11:384][488]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/GIDemoE75367B94CBC2E6CED2798A01D9DCD30.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/GIDemo.uasset'
+[2022.11.04-18.00.11:407][488]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/2ndGate.2ndGate
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PC_SpeedBall.PC_SpeedBall
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/UI/HUD.HUD
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Gate.Gate
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Key.Key
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating World /Game/Maps/Level_BallGame_1.Level_BallGame_1
+[2022.11.04-18.00.11:407][488]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/GIDemo.GIDemo
+[2022.11.04-18.00.13:100][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
