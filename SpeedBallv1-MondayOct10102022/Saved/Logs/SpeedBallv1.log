@@ -3081,3 +3081,35 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.09-05.15.01:171][990]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
 [2022.11.09-05.15.01:194][991]LogPlayLevel: Display: Destroying online subsystem :Context_71
 [2022.11.09-05.15.03:570][263]LogViewport: Scene viewport resized to 1014x582, mode Windowed.
+[2022.11.09-05.16.00:338][816]LogViewport: Scene viewport resized to 2038x1262, mode Windowed.
+[2022.11.09-05.18.52:399][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.11.09-05.18.52:401][380]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Level_BallGame_1' took 0.019
+[2022.11.09-05.18.52:402][380]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PC_SpeedBall] ([2] browsable assets)...
+[2022.11.09-05.18.52:402][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PC_SpeedBall]
+[2022.11.09-05.18.52:410][380]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/PC_SpeedBall_Auto3
+[2022.11.09-05.18.52:411][380]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/PC_SpeedBall_Auto3CA43F27C4C227B46803BECB8BC993516.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/PC_SpeedBall_Auto3.uasset'
+[2022.11.09-05.18.52:411][380]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/HUD] ([2] browsable assets)...
+[2022.11.09-05.18.52:415][380]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/HUD.HUD]
+[2022.11.09-05.18.52:415][380]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2022.11.09-05.18.52:421][380]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/HUD_Auto3
+[2022.11.09-05.18.52:421][380]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/HUD_Auto33A2DA603439B141D441C339D90D92599.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto3.uasset'
+[2022.11.09-05.18.52:422][380]LogFileHelpers: Auto-saving content packages took 0.022
+[2022.11.09-05.19.35:513][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.11.09-05.19.35:589][301]LogSavePackage: Moving output files for package: /Game/Blueprints/PC_SpeedBall
+[2022.11.09-05.19.35:590][301]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/PC_SpeedBallD7C204D0453324E9F25AA9B975407634.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/PC_SpeedBall.uasset'
+[2022.11.09-05.19.35:594][301]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Ball
+[2022.11.09-05.19.35:595][301]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/BP_Ball9E72CB8245877376799ABCA038EA58D0.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/BP_Ball.uasset'
+[2022.11.09-05.19.35:596][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2022.11.09-05.19.35:602][301]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/HUD
+[2022.11.09-05.19.35:603][301]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/HUD2BFBE8B646A40A5B534F2A90B369FD27.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/UI/HUD.uasset'
+[2022.11.09-05.19.35:612][301]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/StartMenu
+[2022.11.09-05.19.35:612][301]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/StartMenuBD9ABDDF45DA32CD8860FEA92BD26709.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/UI/StartMenu.uasset'
+[2022.11.09-05.19.35:622][301]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/DiffMenu
+[2022.11.09-05.19.35:622][301]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/DiffMenuADE70E7D46189A747A0DB09896CB85AF.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Blueprints/UI/DiffMenu.uasset'
+[2022.11.09-05.19.35:636][301]AssetCheck: New page: Asset Save: multiple assets
+[2022.11.09-05.19.35:637][301]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Ball.BP_Ball
+[2022.11.09-05.19.35:637][301]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/UI/HUD.HUD
+[2022.11.09-05.19.35:637][301]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PC_SpeedBall.PC_SpeedBall
+[2022.11.09-05.19.35:637][301]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/UI/StartMenu.StartMenu
+[2022.11.09-05.19.35:638][301]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/UI/DiffMenu.DiffMenu
+[2022.11.09-05.19.37:894][514]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
