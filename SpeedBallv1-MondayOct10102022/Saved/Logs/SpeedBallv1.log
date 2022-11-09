@@ -793,3 +793,25 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.09-06.21.38:855][525]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
 [2022.11.09-06.21.39:782][631]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
 [2022.11.09-06.21.39:782][631]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.11.09-06.24.21:059][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2022.11.09-06.24.21:065][456]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.005069 seconds
+[2022.11.09-06.24.21:078][456]LogSavePackage: Moving output files for package: /Game/Maps/Level_BallGame_1
+[2022.11.09-06.24.21:078][456]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Level_BallGame_1CBDB8E334BA66BC26D02ACB0A9500FE2.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Maps/Level_BallGame_1.umap'
+[2022.11.09-06.24.21:097][456]AssetCheck: New page: Asset Save: Level_BallGame_1
+[2022.11.09-06.24.21:097][456]LogContentValidation: Display: Validating World /Game/Maps/Level_BallGame_1.Level_BallGame_1
+[2022.11.09-06.24.21:654][512]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.11.09-06.24.21:668][512]LogSavePackage: Moving output files for package: /Game/Maps/Level_BallGame_1
+[2022.11.09-06.24.21:668][512]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Level_BallGame_1D9F68D394851E62BC4A6F4B2DCE73FA9.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Maps/Level_BallGame_1.umap'
+[2022.11.09-06.24.21:686][512]AssetCheck: New page: Asset Save: Level_BallGame_1
+[2022.11.09-06.24.21:686][512]LogContentValidation: Display: Validating World /Game/Maps/Level_BallGame_1.Level_BallGame_1
+[2022.11.09-06.24.22:175][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.11.09-06.24.22:188][563]LogSavePackage: Moving output files for package: /Game/Maps/Level_BallGame_1
+[2022.11.09-06.24.22:189][563]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Level_BallGame_1736963034D4CC2702FF186A5A2A422A7.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Content/Maps/Level_BallGame_1.umap'
+[2022.11.09-06.24.22:204][563]AssetCheck: New page: Asset Save: Level_BallGame_1
+[2022.11.09-06.24.22:204][563]LogContentValidation: Display: Validating World /Game/Maps/Level_BallGame_1.Level_BallGame_1
+[2022.11.09-06.24.24:101][760]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PC_SpeedBall.PC_SpeedBall
+[2022.11.09-06.24.24:101][760]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.09-06.24.25:866][913]BlueprintLog: New page: Compile PC_SpeedBall
+[2022.11.09-06.24.25:905][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.11.09-06.24.30:984][493]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GIDemo.GIDemo
+[2022.11.09-06.24.30:984][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
