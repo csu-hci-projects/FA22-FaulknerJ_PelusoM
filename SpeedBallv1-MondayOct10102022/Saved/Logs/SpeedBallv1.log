@@ -815,3 +815,34 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.11.09-06.24.25:905][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
 [2022.11.09-06.24.30:984][493]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GIDemo.GIDemo
 [2022.11.09-06.24.30:984][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.11.09-06.34.22:421][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.11.09-06.34.22:421][670]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Level_BallGame_1' took 0.027
+[2022.11.09-06.34.22:421][670]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/2ndGate] ([2] browsable assets)...
+[2022.11.09-06.34.22:465][670]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/2ndGate.2ndGate]
+[2022.11.09-06.34.22:465][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/2ndGate]
+[2022.11.09-06.34.22:469][670]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/2ndGate_Auto1
+[2022.11.09-06.34.22:469][670]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/2ndGate_Auto1F0CBA53D4210CC1D56783799DCA54E63.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/2ndGate_Auto1.uasset'
+[2022.11.09-06.34.22:470][670]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/GIDemo] ([2] browsable assets)...
+[2022.11.09-06.34.22:470][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/GIDemo]
+[2022.11.09-06.34.22:472][670]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/GIDemo_Auto1
+[2022.11.09-06.34.22:472][670]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/GIDemo_Auto1203AC54A4E976E86F20679A31CA98131.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/GIDemo_Auto1.uasset'
+[2022.11.09-06.34.22:473][670]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PC_SpeedBall] ([2] browsable assets)...
+[2022.11.09-06.34.22:473][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PC_SpeedBall]
+[2022.11.09-06.34.22:482][670]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/PC_SpeedBall_Auto1
+[2022.11.09-06.34.22:483][670]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/PC_SpeedBall_Auto1C07F26544A1DFFADCACE40B7DDBBA94D.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/PC_SpeedBall_Auto1.uasset'
+[2022.11.09-06.34.22:484][670]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/HUD] ([2] browsable assets)...
+[2022.11.09-06.34.22:491][670]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/HUD.HUD]
+[2022.11.09-06.34.22:492][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2022.11.09-06.34.22:498][670]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/HUD_Auto1
+[2022.11.09-06.34.22:498][670]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/HUD_Auto1A8D6DCAF439F5C8A7F8E37867B50FBE8.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto1.uasset'
+[2022.11.09-06.34.22:499][670]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Gate] ([2] browsable assets)...
+[2022.11.09-06.34.22:516][670]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Gate.Gate]
+[2022.11.09-06.34.22:516][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Gate]
+[2022.11.09-06.34.22:520][670]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Gate_Auto1
+[2022.11.09-06.34.22:520][670]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Gate_Auto1E309CE3847342E909917208A11F85252.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/Gate_Auto1.uasset'
+[2022.11.09-06.34.22:521][670]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Key] ([2] browsable assets)...
+[2022.11.09-06.34.22:540][670]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Key.Key]
+[2022.11.09-06.34.22:541][670]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Key]
+[2022.11.09-06.34.22:544][670]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Key_Auto1
+[2022.11.09-06.34.22:545][670]LogSavePackage: Moving '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Key_Auto1CB6889DB4AB28A50F7E61880C9EE44AA.tmp' to '../../../../../../Users/mp182000/Documents/GitHub/FaulknerJ_PelusoM/SpeedBallv1-MondayOct10102022/Saved/Autosaves/Game/Blueprints/Key_Auto1.uasset'
+[2022.11.09-06.34.22:546][670]LogFileHelpers: Auto-saving content packages took 0.125
